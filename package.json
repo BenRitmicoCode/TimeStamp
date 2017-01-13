@@ -1,0 +1,30 @@
+{
+	"//1": "describes your app and its dependencies",
+	"//2": "https://docs.npmjs.com/files/package.json",
+	"//3": "updating this file will download and update your packages",
+	"name": "my-gomix-app",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"ejs": "^2.5.5",
+		"express": "^4.14.0",
+		"express-validator": "^3.1.2",
+		"moment": "^2.17.1"
+	},
+	"engines": {
+		"node": "6.9.1"
+	},
+	"repository": {
+		"url": "https://gomix.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"gomix",
+		"express"
+	]
+}
